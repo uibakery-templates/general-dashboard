@@ -1,0 +1,27 @@
+id: '16208385850230.8233496326263499'
+definitionId: heading
+parentSlotId: '2'
+styles:
+  xl:
+    fontSize:
+      customValue: 26
+      customUnit: px
+    gridItem:
+      x: 1
+      y: 0
+      w: 8
+      h: 10
+    color:
+      value: basic
+      dataValue: basic
+      withData: true
+properties:
+  name: heading
+  text: Dashboard
+  type: h3
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xl
+    - xs
+actions: {}
+index: 2
+slots: []

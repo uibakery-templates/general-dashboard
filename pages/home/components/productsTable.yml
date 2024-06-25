@@ -1,0 +1,114 @@
+id: '16208362544700.4871843390485566'
+definitionId: smartTable
+parentSlotId: '2'
+styles:
+  xl:
+    gridItem:
+      x: 0
+      y: 148
+      w: 24
+      h: 78
+properties:
+  name: productsTable
+  data: '{{actions.payments.data}}'
+  title: Payments
+  limit: '10'
+  showLoading:
+    withData: true
+    dataValue: 'false'
+    value: false
+  selectedRowIndex: '0'
+  triggerRowSelectOnInit:
+    value: true
+    dataValue: 'false'
+    withData: false
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xl
+    - xs
+  selectRowOnEditButtonClick:
+    value: false
+    dataValue: 'false'
+    withData: false
+  rowHeight: dynamic
+actions: {}
+index: 0
+slots:
+  - id: '16208362544700.44125583843162275'
+    name: columns
+    children:
+      - id: '17189710555700.6135921980960621'
+        definitionId: atomicNumber
+        parentSlotId: '16208362544700.44125583843162275'
+        styles:
+          xl:
+            visible: true
+        properties:
+          name: atomicNumber
+          prop: customerNumber
+          primaryKey: false
+          __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+            - xl
+            - xs
+          width: 60
+          widthMode: auto
+          filter: true
+        index: 0
+        slots: []
+      - id: '17189710555700.39942395655776'
+        definitionId: atomicString
+        parentSlotId: '16208362544700.44125583843162275'
+        styles:
+          xl:
+            visible: true
+        properties:
+          name: atomicString
+          prop: checkNumber
+          primaryKey: false
+          __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+            - xl
+            - xs
+          width: 120
+          widthMode: auto
+          filter: true
+        index: 1
+        slots: []
+      - id: '17189710555700.5384586390806907'
+        definitionId: atomicDateTime
+        parentSlotId: '16208362544700.44125583843162275'
+        styles:
+          xl:
+            visible: true
+        properties:
+          name: atomicDateTime
+          prop: paymentDate
+          primaryKey: false
+          timeFormat:
+            value: ''
+            dataValue: HH:mm
+            withData: false
+          __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+            - xl
+            - xs
+          width: 120
+          widthMode: auto
+          filter: true
+        index: 2
+        slots: []
+      - id: '17189710555700.699888034118674'
+        definitionId: atomicNumber
+        parentSlotId: '16208362544700.44125583843162275'
+        styles:
+          xl:
+            visible: true
+        properties:
+          name: atomicNumber2
+          prop: amount
+          primaryKey: false
+          __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+            - xl
+            - xs
+          width: 60
+          widthMode: auto
+          filter: true
+        index: 3
+        slots: []

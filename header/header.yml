@@ -1,0 +1,28 @@
+id: '17189714356510.47708344680453263'
+name: content
+children:
+  - id: '17189714356520.15914604883380878'
+    definitionId: layoutHeader
+    parentSlotId: '17189714356510.47708344680453263'
+    styles:
+      xl:
+        backgroundColor:
+          value: warning
+          dataValue: default
+          withData: false
+    properties:
+      name: layoutHeader
+      __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+        - xl
+        - xs
+      minRow: |
+        8
+    index: 0
+    slots:
+      - id: '17189714356520.5121481247869073'
+        name: content
+        children:
+          - components/horizontalMenu.yml
+          - components/icon4.yml
+          - components/icon6.yml
+          - components/icon7.yml
